@@ -1,9 +1,131 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Timetable</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
-    <h1>hashirsg underwear 🔥</h1>
-</body>
+    <head>
+        <title>hashirs underwear</title>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <h1 id="mainTitle">hashirs underwear</h1>
+
+        <form id="inputForm">
+            <input type="text" id="courseName" placeholder="Enter your course name" />
+            <input type="text" id="startTime" placeholder="Enter the start time" />
+            <input type="text" id="endTime" placeholder="Enter the end time" />
+            <label>M</label>
+            <input type="checkbox" class="days" id="monday" value="monday" />
+            <label>T</label>
+            <input type="checkbox" class="days" id="tuesday" value="tuesday" />
+            <label>W</label>
+            <input type="checkbox" class="days" id="wednesday" value="wednesday" />
+            <label>T</label>
+            <input type="checkbox" class="days" id="thursday" value="thursday" />
+            <label>F</label>
+            <input type="checkbox" class="days" id="friday" value="friday" />
+            <button id="submit" onclick="submitButtonClicked(event)">Submit</button>
+        </form>
+        <table id="timeTable">
+            <tr id="headings">
+                <th id="time">Time</th>
+                <th id="monday">Monday</th>
+                <th id="tuesday">Tuesday</th>
+                <th id="wednesday">Wednesday</th>
+                <th id="thursday">Thursday</th>
+                <th id="friday">Friday</th>
+            </tr>
+            <tr class="time" id="8am">
+                <td>8:00</td>
+            </tr>
+            <tr class="time" id="830am">
+                <td>8:30</td>
+            </tr>
+            <tr class="time" id="9am">
+                <td>9:00</td>
+            </tr>
+            <tr class="time" id="930am">
+                <td>9:30</td>
+            </tr>
+            <tr class="time" id="10am">
+                <td>10:00</td>
+            </tr>
+            <tr class="time" id="1030am">
+                <td>10:30</td>
+            </tr>
+            <tr class="time" id="11am">
+                <td>11:00</td>
+            </tr>
+            <tr class="time" id="1130am">
+                <td>11:30</td>
+            </tr>
+            <tr class="time" id="12pm">
+                <td>12:00</td>
+            </tr>
+            <tr class="time" id="1230pm">
+                <td>12:30</td>
+            </tr>
+            <tr class="time" id="1pm">
+                <td>1:00</td>
+            </tr>
+            <tr class="time" id="130pm">
+                <td>1:30</td>
+            </tr>
+            <tr class="time" id="2pm">
+                <td>2:00</td>
+            </tr>
+            <tr class="time" id="230pm">
+                <td>2:30</td>
+            </tr>
+            <tr class="time" id="3pm">
+                <td>3:00</td>
+            </tr>
+            <tr class="time" id="330pm">
+                <td>3:30</td>
+            </tr>
+            <tr class="time" id="4pm">
+                <td>4:00</td>
+            </tr>
+            <tr class="time" id="430pm">
+                <td>4:30</td>
+            </tr>
+            <tr class="time" id="5pm">
+                <td>5:00</td>
+            </tr>
+            <tr class="time" id="530pm">
+                <td>5:30</td>
+            </tr>
+            <tr class="time" id="6pm">
+                <td>6:00</td>
+            </tr>
+            <tr class="time" id="630pm">
+                <td>6:30</td>
+            </tr>
+            <tr class="time" id="7pm">
+                <td>7:00</td>
+            </tr>
+            <tr class="time" id="730pm">
+                <td>7:30</td>
+            </tr>
+            <tr class="time" id="8pm">
+                <td>8:00</td>
+            </tr>
+            <tr class="time" id="830pm">
+                <td>8:30</td>
+            </tr>
+            <tr class="time" id="9pm">
+                <td>9:00</td>
+            </tr>
+            <tr class="time" id="930pm">
+                <td>9:30</td>
+            </tr>
+            <tr class="time" id="10pm">
+                <td>10:00</td>
+            </tr>
+            <tr class="time" id="1030pm">
+                <td>10:30</td>
+            </tr>
+            <tr class="time" id="11pm">
+                <td>11:00</td>
+            </tr>
+        </table>
+    </body>
+</html>

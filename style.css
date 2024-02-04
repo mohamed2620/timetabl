@@ -1,0 +1,36 @@
+body {
+    font-family: sans-serif;
+}
+
+#mainTitle {
+    font-size: 10vw;
+    line-height: 1;
+    text-align: center;
+    color: darkslategray;
+}
+
+label {
+    margin-left: 10px;
+}
+
+table {
+    position: relative;
+    top: 20px;
+}
+
+tr, td, th {
+    outline: 1px solid gray;
+    padding: 4px;
+}
+
+th:not(#time) {
+    width: 250px;
+}
+
+.time {
+    text-align: right;
+}
+
+td {
+    text-align: center;
+}
